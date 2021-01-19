@@ -22,7 +22,7 @@ pod 'XLNSLog'
 
 ## Author
 
-TanQiLong, tanqilong@qiyi.com
+Shawn, 47188396@qq.com
 
 ## License
 

@@ -89,7 +89,7 @@
 		F41D80F82107C141259666C1B3BD1B5C /* Pods-XLNSLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XLNSLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F67E3873D6A006E309F782D284B0F21C /* Pods-XLNSLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XLNSLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8DB4E0E8C790AB133C08E6E5E0D3621 /* XLNSLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLNSLog-dummy.m"; sourceTree = "<group>"; };
-		F90C53FA6C9BDC468A12CD11CC922D9A /* XLNSLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XLNSLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F90C53FA6C9BDC468A12CD11CC922D9A /* XLNSLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XLNSLog.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		FCF37D5004744818E44FDA6BD6372760 /* XLScreenMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XLScreenMessageView.m; sourceTree = "<group>"; };
 		FCF775D7C176DE609C244447C497F338 /* XLNSLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLNSLog-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
