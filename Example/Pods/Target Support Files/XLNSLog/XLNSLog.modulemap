@@ -1,0 +1,6 @@
+framework module XLNSLog {
+  umbrella header "XLNSLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
