@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XLNSLog/Classes/**/*'
+  s.source_files = 'XLNSLog/Classes/**/*.{h,m}'
   s.resources = ['XLNSLog/Classes/**/*.xib']
   
   # s.resource_bundles = {
