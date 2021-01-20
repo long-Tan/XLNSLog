@@ -8,6 +8,8 @@
 
 #import "XLViewController.h"
 #import "XLNSLogFilter.h"
+#import "Person.h"
+#import "XLNSLog_Example-Swift.h"
 
 @interface XLViewController ()
 @property (nonatomic,strong) dispatch_source_t timer;
@@ -36,6 +38,16 @@
         XLOG(@"Do any additional setup after loading the view.Do any additional setup after loading the view.Do any additional setup after loading the view.Do any additional setup after loading the view.Do any additional setup after loading the view.");
     });
     dispatch_resume(_timer);
+}
+
+- (IBAction)logByOtherClass:(id)sender {
+    NSLog(@"123");
+    [Person SayHello];
+}
+
+- (IBAction)logBySwift:(id)sender {
+    Car * car = [Car new];
+    [car sayHello];
 }
 
 @end

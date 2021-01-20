@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XLNSLog'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of XLNSLog1.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XLNSLog/Classes/**/*'
+  s.resources = ['XLNSLog/Classes/**/*.xib']
   
   # s.resource_bundles = {
   #   'XLNSLog' => ['XLNSLog/Assets/*.png']

@@ -7,107 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07AAFA9AF4166541C3524725ED65D5A8 /* XLScreenShowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7799094CF4393118D1E006C853CCE95E /* XLScreenShowManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1349A5E9C9669914911207AAF506FE1E /* XLScreenMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8DE1F0309097604E3EDC9BEFBA5647 /* XLScreenMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23066912CAB516E6186626A4EEBFA007 /* XLScreenMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF37D5004744818E44FDA6BD6372760 /* XLScreenMessageView.m */; };
+		03E556F1636354259781B0A4CC901BC8 /* XLLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA31880EE19FF385E07F07A2FE2EFA /* XLLogCell.m */; };
+		10E32C0399F21E78331C8BB04C1B00F6 /* XLNSLogHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F5D36F94DEF7C92E7F6DFE6F3273C0 /* XLNSLogHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182A4D6C71721CC52070CC0575D385EF /* XLLogCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC9A0CB476EE10DF345A23C8BBDFDEF /* XLLogCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25077AF0325227677DAFA8B5A44840CA /* Pods-XLNSLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41D80F82107C141259666C1B3BD1B5C /* Pods-XLNSLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FE5DBFB0368C9F3B11231D097030908 /* XLNSLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DB4E0E8C790AB133C08E6E5E0D3621 /* XLNSLog-dummy.m */; };
-		343AFCD85657C1080A048BDDD2E24768 /* XLScreenShowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F1DEB9C0E4D4FAE0A9F0709074BACA /* XLScreenShowManager.m */; };
-		5446114F45C8A4F618CD74B6076FA1D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		556249EFE46BEB0BC8F8774FA6403867 /* XLNSLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0185102F619FD6E314644CFC634D4 /* XLNSLogUtil.m */; };
-		67A1B9EF53C73C996E98434C08DB7B2E /* XLNSLogUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B13F9E4A1A4B73313EE36A0DE19E1E /* XLNSLogUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7648EAA57FCDD48412E6E54157DC53E1 /* XLNSLogFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6152B936F6CAF99364DAFEDE7D4865D4 /* XLNSLogFilter.m */; };
-		831E1CF9303C27995B67C695A2F72854 /* XLLogCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 75DC0C2DCA85F296B1B156B108AABA36 /* XLLogCell.xib */; };
-		8A3367F817532C90A74AA665D6AD85A2 /* XLNSLogHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D984B26784E07CE061276C264F4116 /* XLNSLogHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		991155F0DBDEE081B04DF654F06D2E6E /* XLNSLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8741AE7DAA79DA78E278A1398B152A6 /* XLNSLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420F8A627D29A39F737CE8F37EB6F65C /* XLNSLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E6A0214DDC4B741D62DD4F7D7C76C /* XLNSLog-dummy.m */; };
+		499186D35E8A493FD15FA68C373FBAB9 /* XLLogCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 102369E5A48A9E247207B63C0C237F5E /* XLLogCell.xib */; };
+		6C286D3C6FAF7FBF28B03AA54B1D7BEB /* XLNSLogFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8BEDAFA8AEC20F626108C917100FFA /* XLNSLogFilter.m */; };
+		8157E277A0D1399284053DD9DC7EF637 /* XLScreenShowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F2B40525921C24CFAA90B6AC4F499F /* XLScreenShowManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1831EE8240A4F813902B5ACC7E8017 /* XLNSLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C30F150FD23D875C80A2167D53389 /* XLNSLogUtil.m */; };
 		A160BF21A26D6B561DE2DACFCF9CDA77 /* Pods-XLNSLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B54D9A0C573A75BB3E43B539709F3D /* Pods-XLNSLog_Tests-dummy.m */; };
-		BF9E33C587959851280BF5073701214B /* XLLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9954ACFC14F482175242EC7CCD5C1 /* XLLogCell.m */; };
+		AD48E29C00C43A0085AE066C613F0F05 /* XLScreenMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC51C8624A4229DE293F92E8825B54 /* XLScreenMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B01D6FC43B4DDF2EB954055166BE53 /* XLScreenMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F02F4686E0BB826A9D4873C4E0460650 /* XLScreenMessageView.m */; };
+		C018064CEC9C8D407D38D516FEFF53C5 /* XLNSLogUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1456A75B1E4511870B6D432F6EEE0045 /* XLNSLogUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02ABD6DA4E3F2754392BA17909893AF /* XLNSLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D4CA77CDD70F661C882AEC7ECB6CD2 /* XLNSLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6C0B2C137C097254B683ACFAFEF2DD4 /* Pods-XLNSLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7C7FB06CB76131310C6D319D6641DB /* Pods-XLNSLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE1FBD9F9F6ACC39AE67A40D446D11CE /* Pods-XLNSLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E04D9537B94962A5469D4F48ED67B033 /* Pods-XLNSLog_Example-dummy.m */; };
-		D005E381F25E51D73C5E519205D4C727 /* XLNSLogFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B976F46A51CF26C3C5B9BB2B99FBD80A /* XLNSLogFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA5C0DDA869A694ECD1B780B63D96EDF /* XLLogCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE5AB4925710A8AD3AF53095980F6FA /* XLLogCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5EA2DB622A29DEC22EEE0E94DCC58A /* XLNSLogFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AF39D164F5D8C5910CA1F8CF333AA7 /* XLNSLogFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F068C92A0BDE27D72309DC0304EC5D15 /* XLScreenShowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4952B2DE4D5D487E1749C7E280718C /* XLScreenShowManager.m */; };
 		F21DB43A2334D976001A67F11C420911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F3ED05CFCE9FB44BFD03938431FAE302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FF60C78ACD9E5757A21892C2B27B6DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69BBE3F1DCFDE8811131A3C75D4A8F1D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C62FD165B7CBC6EB69F099D68A54B81;
-			remoteInfo = XLNSLog;
-		};
-		9B895975085C96D71E1700EA2FAE16F2 /* PBXContainerItemProxy */ = {
+		A4E08226E9F60716B43801130A66DBD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B52CD84C7918F2F52FB38F95AE369758;
 			remoteInfo = "Pods-XLNSLog_Example";
 		};
+		FEBF2014F6039E5045C5D4B12F5870AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C62FD165B7CBC6EB69F099D68A54B81;
+			remoteInfo = XLNSLog;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FE5AB4925710A8AD3AF53095980F6FA /* XLLogCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XLLogCell.h; sourceTree = "<group>"; };
-		1C8DE1F0309097604E3EDC9BEFBA5647 /* XLScreenMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XLScreenMessageView.h; sourceTree = "<group>"; };
-		1E316210791D894B14847A558D7FEFF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		102369E5A48A9E247207B63C0C237F5E /* XLLogCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = XLLogCell.xib; path = XLNSLog/Classes/XLLogFilter/XLLogCell.xib; sourceTree = "<group>"; };
+		1456A75B1E4511870B6D432F6EEE0045 /* XLNSLogUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLNSLogUtil.h; path = XLNSLog/Classes/XLLogFilter/XLNSLogUtil.h; sourceTree = "<group>"; };
+		25C2BD025F2EE70E3CD1B7DB3D79D357 /* XLNSLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLNSLog.modulemap; sourceTree = "<group>"; };
 		27163B346F3E6452F0FCEA25AB934712 /* Pods-XLNSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XLNSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2AA5D0F9D56ED6FB63E40E28E5786FFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		280E6A0214DDC4B741D62DD4F7D7C76C /* XLNSLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLNSLog-dummy.m"; sourceTree = "<group>"; };
+		2A4952B2DE4D5D487E1749C7E280718C /* XLScreenShowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScreenShowManager.m; path = XLNSLog/Classes/XLLogFilter/XLScreenShowManager.m; sourceTree = "<group>"; };
+		328C30F150FD23D875C80A2167D53389 /* XLNSLogUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLNSLogUtil.m; path = XLNSLog/Classes/XLLogFilter/XLNSLogUtil.m; sourceTree = "<group>"; };
 		35D4F90DA8DB29D9F65D0A2CE889FD36 /* Pods-XLNSLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XLNSLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36F1DEB9C0E4D4FAE0A9F0709074BACA /* XLScreenShowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XLScreenShowManager.m; sourceTree = "<group>"; };
 		384FF35BC7BB2CF96551B2E917A41469 /* Pods-XLNSLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XLNSLog_Tests.modulemap"; sourceTree = "<group>"; };
-		3AE0185102F619FD6E314644CFC634D4 /* XLNSLogUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XLNSLogUtil.m; sourceTree = "<group>"; };
-		4DD5800AB0BFEE9731F3BE8C0749F510 /* Pods_XLNSLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLNSLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CC45741E4930E32847BBF32EB77095 /* XLNSLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XLNSLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A7C643CEB80FDFF7B99A71D8CD95DAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4DD5800AB0BFEE9731F3BE8C0749F510 /* Pods_XLNSLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XLNSLog_Example.framework; path = "Pods-XLNSLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED1E098B8DC0DDB4DDC106481E91101 /* Pods-XLNSLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XLNSLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FC9A0CB476EE10DF345A23C8BBDFDEF /* XLLogCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLLogCell.h; path = XLNSLog/Classes/XLLogFilter/XLLogCell.h; sourceTree = "<group>"; };
+		53CCFC216977DC3A2CFBC62ABFFF8F07 /* XLNSLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XLNSLog-Info.plist"; sourceTree = "<group>"; };
 		53EF52DCCAA8808706ABCC76657277C1 /* Pods-XLNSLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XLNSLog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		58645643F81CE20295D52E6FDB2F4917 /* Pods-XLNSLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XLNSLog_Tests-Info.plist"; sourceTree = "<group>"; };
-		6152B936F6CAF99364DAFEDE7D4865D4 /* XLNSLogFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XLNSLogFilter.m; sourceTree = "<group>"; };
-		61B22A91DA682B562D17DFBADB8C9E6F /* XLNSLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLNSLog.modulemap; sourceTree = "<group>"; };
-		63D9954ACFC14F482175242EC7CCD5C1 /* XLLogCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XLLogCell.m; sourceTree = "<group>"; };
+		5F8BEDAFA8AEC20F626108C917100FFA /* XLNSLogFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLNSLogFilter.m; path = XLNSLog/Classes/XLLogFilter/XLNSLogFilter.m; sourceTree = "<group>"; };
+		65BC1988AB26EBBADB071D4D2E1E52BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		68EBB8BDEC6E8CABCE292C2AD2471198 /* Pods-XLNSLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XLNSLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74D984B26784E07CE061276C264F4116 /* XLNSLogHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XLNSLogHeader.h; sourceTree = "<group>"; };
-		75DC0C2DCA85F296B1B156B108AABA36 /* XLLogCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = XLLogCell.xib; sourceTree = "<group>"; };
-		7799094CF4393118D1E006C853CCE95E /* XLScreenShowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XLScreenShowManager.h; sourceTree = "<group>"; };
+		78D4CA77CDD70F661C882AEC7ECB6CD2 /* XLNSLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLNSLog-umbrella.h"; sourceTree = "<group>"; };
 		7A7C7FB06CB76131310C6D319D6641DB /* Pods-XLNSLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XLNSLog_Example-umbrella.h"; sourceTree = "<group>"; };
 		81032CE46F2F242F878E7DF41F146E30 /* Pods-XLNSLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XLNSLog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3B13F9E4A1A4B73313EE36A0DE19E1E /* XLNSLogUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XLNSLogUtil.h; sourceTree = "<group>"; };
+		97FC51C8624A4229DE293F92E8825B54 /* XLScreenMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScreenMessageView.h; path = XLNSLog/Classes/XLLogFilter/XLScreenMessageView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23AEB51509FFA1D210982E7CFF7729F /* XLNSLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLNSLog.debug.xcconfig; sourceTree = "<group>"; };
+		A3CA31880EE19FF385E07F07A2FE2EFA /* XLLogCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLLogCell.m; path = XLNSLog/Classes/XLLogFilter/XLLogCell.m; sourceTree = "<group>"; };
+		A3F5D36F94DEF7C92E7F6DFE6F3273C0 /* XLNSLogHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLNSLogHeader.h; path = XLNSLog/Classes/XLLogFilter/XLNSLogHeader.h; sourceTree = "<group>"; };
 		B8B54D9A0C573A75BB3E43B539709F3D /* Pods-XLNSLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XLNSLog_Tests-dummy.m"; sourceTree = "<group>"; };
-		B976F46A51CF26C3C5B9BB2B99FBD80A /* XLNSLogFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XLNSLogFilter.h; sourceTree = "<group>"; };
-		BC04065CE6AB8C3E227B3D9F992C32A3 /* XLNSLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLNSLog.debug.xcconfig; sourceTree = "<group>"; };
 		CB6C702985253B9FB0F41001E1EF748B /* Pods-XLNSLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XLNSLog_Example.modulemap"; sourceTree = "<group>"; };
-		CFCA23D80C4590574462FC8E65FAC9C3 /* Pods_XLNSLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLNSLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCA23D80C4590574462FC8E65FAC9C3 /* Pods_XLNSLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XLNSLog_Tests.framework; path = "Pods-XLNSLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AF39D164F5D8C5910CA1F8CF333AA7 /* XLNSLogFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLNSLogFilter.h; path = XLNSLog/Classes/XLLogFilter/XLNSLogFilter.h; sourceTree = "<group>"; };
 		D731576E0CC7D06E150852C737405BE3 /* Pods-XLNSLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XLNSLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DEAB7432B0E945DF46C9D5742CCE5E2D /* XLNSLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLNSLog-prefix.pch"; sourceTree = "<group>"; };
 		E04D9537B94962A5469D4F48ED67B033 /* Pods-XLNSLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XLNSLog_Example-dummy.m"; sourceTree = "<group>"; };
+		E4F2B40525921C24CFAA90B6AC4F499F /* XLScreenShowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScreenShowManager.h; path = XLNSLog/Classes/XLLogFilter/XLScreenShowManager.h; sourceTree = "<group>"; };
 		E529E2EE4855BFB3E2785EF0FD3CFB0D /* Pods-XLNSLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XLNSLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E5A14E4D145BD08850D9B2338FC620B5 /* XLNSLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLNSLog.release.xcconfig; sourceTree = "<group>"; };
-		E8741AE7DAA79DA78E278A1398B152A6 /* XLNSLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLNSLog-umbrella.h"; sourceTree = "<group>"; };
-		ED15A6E97879063A81AEC94C55BC2D19 /* XLNSLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLNSLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED15A6E97879063A81AEC94C55BC2D19 /* XLNSLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLNSLog.framework; path = XLNSLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02F4686E0BB826A9D4873C4E0460650 /* XLScreenMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScreenMessageView.m; path = XLNSLog/Classes/XLLogFilter/XLScreenMessageView.m; sourceTree = "<group>"; };
 		F14DF415380EB40A744BE4C9EC949D9C /* Pods-XLNSLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XLNSLog_Example-Info.plist"; sourceTree = "<group>"; };
-		F18A6E43425A93B7877B2F1C56AB2DC6 /* XLNSLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XLNSLog-Info.plist"; sourceTree = "<group>"; };
 		F41D80F82107C141259666C1B3BD1B5C /* Pods-XLNSLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XLNSLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F67E3873D6A006E309F782D284B0F21C /* Pods-XLNSLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XLNSLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F8DB4E0E8C790AB133C08E6E5E0D3621 /* XLNSLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLNSLog-dummy.m"; sourceTree = "<group>"; };
-		F90C53FA6C9BDC468A12CD11CC922D9A /* XLNSLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XLNSLog.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		FCF37D5004744818E44FDA6BD6372760 /* XLScreenMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XLScreenMessageView.m; sourceTree = "<group>"; };
-		FCF775D7C176DE609C244447C497F338 /* XLNSLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLNSLog-prefix.pch"; sourceTree = "<group>"; };
+		FAF8D785D4BC5131DA2AC860BA4B3EAF /* XLNSLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLNSLog.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		008B0EE21CA2C9E0606572C85B084898 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5446114F45C8A4F618CD74B6076FA1D2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		06EA5CF0C864B5B4332BDB6834AC2BFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F21DB43A2334D976001A67F11C420911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BDE03604C1ABAB04B813FB925A44FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3ED05CFCE9FB44BFD03938431FAE302 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,50 +122,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05908058924107A4272E06F75C2964F9 /* Support Files */ = {
+		304CF039603AF2A00593983E810C4785 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				61B22A91DA682B562D17DFBADB8C9E6F /* XLNSLog.modulemap */,
-				F8DB4E0E8C790AB133C08E6E5E0D3621 /* XLNSLog-dummy.m */,
-				F18A6E43425A93B7877B2F1C56AB2DC6 /* XLNSLog-Info.plist */,
-				FCF775D7C176DE609C244447C497F338 /* XLNSLog-prefix.pch */,
-				E8741AE7DAA79DA78E278A1398B152A6 /* XLNSLog-umbrella.h */,
-				BC04065CE6AB8C3E227B3D9F992C32A3 /* XLNSLog.debug.xcconfig */,
-				E5A14E4D145BD08850D9B2338FC620B5 /* XLNSLog.release.xcconfig */,
+				65BC1988AB26EBBADB071D4D2E1E52BB /* LICENSE */,
+				4A7C643CEB80FDFF7B99A71D8CD95DAE /* README.md */,
+				42CC45741E4930E32847BBF32EB77095 /* XLNSLog.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XLNSLog";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		0BBAFCABC054E779F1E054FA5D78CED6 /* XLLogFilter */ = {
+		39CD9F37429C4C1ACAE8CC5D45A406A1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				74D984B26784E07CE061276C264F4116 /* XLNSLogHeader.h */,
-				0FE5AB4925710A8AD3AF53095980F6FA /* XLLogCell.h */,
-				63D9954ACFC14F482175242EC7CCD5C1 /* XLLogCell.m */,
-				75DC0C2DCA85F296B1B156B108AABA36 /* XLLogCell.xib */,
-				B976F46A51CF26C3C5B9BB2B99FBD80A /* XLNSLogFilter.h */,
-				6152B936F6CAF99364DAFEDE7D4865D4 /* XLNSLogFilter.m */,
-				B3B13F9E4A1A4B73313EE36A0DE19E1E /* XLNSLogUtil.h */,
-				3AE0185102F619FD6E314644CFC634D4 /* XLNSLogUtil.m */,
-				1C8DE1F0309097604E3EDC9BEFBA5647 /* XLScreenMessageView.h */,
-				FCF37D5004744818E44FDA6BD6372760 /* XLScreenMessageView.m */,
-				7799094CF4393118D1E006C853CCE95E /* XLScreenShowManager.h */,
-				36F1DEB9C0E4D4FAE0A9F0709074BACA /* XLScreenShowManager.m */,
+				6A2D9F5FF7F69A85B24CE32FEC371DDD /* XLNSLog */,
 			);
-			name = XLLogFilter;
-			path = XLNSLog/Classes/XLLogFilter;
-			sourceTree = "<group>";
-		};
-		44444FDC622B24AE1C9759F519A26906 /* XLNSLog */ = {
-			isa = PBXGroup;
-			children = (
-				0BBAFCABC054E779F1E054FA5D78CED6 /* XLLogFilter */,
-				529B08F0AE07440B6AB974C99356C075 /* Pod */,
-				05908058924107A4272E06F75C2964F9 /* Support Files */,
-			);
-			name = XLNSLog;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		50A4B1EF8AAFF802C7D072B450F4733B /* Pods-XLNSLog_Tests */ = {
@@ -184,22 +156,49 @@
 			path = "Target Support Files/Pods-XLNSLog_Tests";
 			sourceTree = "<group>";
 		};
-		529B08F0AE07440B6AB974C99356C075 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1E316210791D894B14847A558D7FEFF8 /* LICENSE */,
-				2AA5D0F9D56ED6FB63E40E28E5786FFF /* README.md */,
-				F90C53FA6C9BDC468A12CD11CC922D9A /* XLNSLog.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A2D9F5FF7F69A85B24CE32FEC371DDD /* XLNSLog */ = {
+			isa = PBXGroup;
+			children = (
+				4FC9A0CB476EE10DF345A23C8BBDFDEF /* XLLogCell.h */,
+				A3CA31880EE19FF385E07F07A2FE2EFA /* XLLogCell.m */,
+				102369E5A48A9E247207B63C0C237F5E /* XLLogCell.xib */,
+				D0AF39D164F5D8C5910CA1F8CF333AA7 /* XLNSLogFilter.h */,
+				5F8BEDAFA8AEC20F626108C917100FFA /* XLNSLogFilter.m */,
+				A3F5D36F94DEF7C92E7F6DFE6F3273C0 /* XLNSLogHeader.h */,
+				1456A75B1E4511870B6D432F6EEE0045 /* XLNSLogUtil.h */,
+				328C30F150FD23D875C80A2167D53389 /* XLNSLogUtil.m */,
+				97FC51C8624A4229DE293F92E8825B54 /* XLScreenMessageView.h */,
+				F02F4686E0BB826A9D4873C4E0460650 /* XLScreenMessageView.m */,
+				E4F2B40525921C24CFAA90B6AC4F499F /* XLScreenShowManager.h */,
+				2A4952B2DE4D5D487E1749C7E280718C /* XLScreenShowManager.m */,
+				304CF039603AF2A00593983E810C4785 /* Pod */,
+				7FF1B6A36D68E532F6D5512328508D7F /* Support Files */,
+			);
+			name = XLNSLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7FF1B6A36D68E532F6D5512328508D7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C2BD025F2EE70E3CD1B7DB3D79D357 /* XLNSLog.modulemap */,
+				280E6A0214DDC4B741D62DD4F7D7C76C /* XLNSLog-dummy.m */,
+				53CCFC216977DC3A2CFBC62ABFFF8F07 /* XLNSLog-Info.plist */,
+				DEAB7432B0E945DF46C9D5742CCE5E2D /* XLNSLog-prefix.pch */,
+				78D4CA77CDD70F661C882AEC7ECB6CD2 /* XLNSLog-umbrella.h */,
+				A23AEB51509FFA1D210982E7CFF7729F /* XLNSLog.debug.xcconfig */,
+				FAF8D785D4BC5131DA2AC860BA4B3EAF /* XLNSLog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XLNSLog";
 			sourceTree = "<group>";
 		};
 		9E961EE94CEDF4AB1E38B0E2D7EA455B /* Products */ = {
@@ -212,19 +211,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF0EA44D415815A92013407175DF91A5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				44444FDC622B24AE1C9759F519A26906 /* XLNSLog */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BF0EA44D415815A92013407175DF91A5 /* Development Pods */,
+				39CD9F37429C4C1ACAE8CC5D45A406A1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9E961EE94CEDF4AB1E38B0E2D7EA455B /* Products */,
 				FE5045FA7D0845A549005D171D165A97 /* Targets Support Files */,
@@ -276,17 +267,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C6531C1AF6DF550CB939AD1B0ED24BE /* Headers */ = {
+		9C8101A932CDBF8C88249ACA4B00E936 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA5C0DDA869A694ECD1B780B63D96EDF /* XLLogCell.h in Headers */,
-				991155F0DBDEE081B04DF654F06D2E6E /* XLNSLog-umbrella.h in Headers */,
-				D005E381F25E51D73C5E519205D4C727 /* XLNSLogFilter.h in Headers */,
-				8A3367F817532C90A74AA665D6AD85A2 /* XLNSLogHeader.h in Headers */,
-				67A1B9EF53C73C996E98434C08DB7B2E /* XLNSLogUtil.h in Headers */,
-				1349A5E9C9669914911207AAF506FE1E /* XLScreenMessageView.h in Headers */,
-				07AAFA9AF4166541C3524725ED65D5A8 /* XLScreenShowManager.h in Headers */,
+				182A4D6C71721CC52070CC0575D385EF /* XLLogCell.h in Headers */,
+				C02ABD6DA4E3F2754392BA17909893AF /* XLNSLog-umbrella.h in Headers */,
+				EC5EA2DB622A29DEC22EEE0E94DCC58A /* XLNSLogFilter.h in Headers */,
+				10E32C0399F21E78331C8BB04C1B00F6 /* XLNSLogHeader.h in Headers */,
+				C018064CEC9C8D407D38D516FEFF53C5 /* XLNSLogUtil.h in Headers */,
+				AD48E29C00C43A0085AE066C613F0F05 /* XLScreenMessageView.h in Headers */,
+				8157E277A0D1399284053DD9DC7EF637 /* XLScreenShowManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +294,12 @@
 /* Begin PBXNativeTarget section */
 		9C62FD165B7CBC6EB69F099D68A54B81 /* XLNSLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1CBF2E0DFD63E178078FF44E4D91DC4 /* Build configuration list for PBXNativeTarget "XLNSLog" */;
+			buildConfigurationList = 5A20C33893B3C4BE5078D79D8C838899 /* Build configuration list for PBXNativeTarget "XLNSLog" */;
 			buildPhases = (
-				4C6531C1AF6DF550CB939AD1B0ED24BE /* Headers */,
-				6B4831F9DC0563120D04BB25AFE1FF9E /* Sources */,
-				008B0EE21CA2C9E0606572C85B084898 /* Frameworks */,
-				151B3A8A2F3FF28F871D395A5598834D /* Resources */,
+				9C8101A932CDBF8C88249ACA4B00E936 /* Headers */,
+				EC93ED09EF7F545422AD32CDAA22BAD4 /* Sources */,
+				68BDE03604C1ABAB04B813FB925A44FF /* Frameworks */,
+				33757876192EC504D25435DA45380CF3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -331,7 +322,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6F6FCBE6B10B63F10443430ED5108FE3 /* PBXTargetDependency */,
+				B7D0AED4404C8975044750682DA44B82 /* PBXTargetDependency */,
 			);
 			name = "Pods-XLNSLog_Example";
 			productName = "Pods-XLNSLog_Example";
@@ -350,7 +341,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F53F56E0B805474B998DE272023D9AE1 /* PBXTargetDependency */,
+				6AAED4772D99679D97287C58525D1BDB /* PBXTargetDependency */,
 			);
 			name = "Pods-XLNSLog_Tests";
 			productName = "Pods-XLNSLog_Tests";
@@ -387,7 +378,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		151B3A8A2F3FF28F871D395A5598834D /* Resources */ = {
+		33757876192EC504D25435DA45380CF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,20 +402,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B4831F9DC0563120D04BB25AFE1FF9E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF9E33C587959851280BF5073701214B /* XLLogCell.m in Sources */,
-				831E1CF9303C27995B67C695A2F72854 /* XLLogCell.xib in Sources */,
-				2FE5DBFB0368C9F3B11231D097030908 /* XLNSLog-dummy.m in Sources */,
-				7648EAA57FCDD48412E6E54157DC53E1 /* XLNSLogFilter.m in Sources */,
-				556249EFE46BEB0BC8F8774FA6403867 /* XLNSLogUtil.m in Sources */,
-				23066912CAB516E6186626A4EEBFA007 /* XLScreenMessageView.m in Sources */,
-				343AFCD85657C1080A048BDDD2E24768 /* XLScreenShowManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A398F29B8A550E88474AADCC9662EE9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -441,20 +418,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC93ED09EF7F545422AD32CDAA22BAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E556F1636354259781B0A4CC901BC8 /* XLLogCell.m in Sources */,
+				499186D35E8A493FD15FA68C373FBAB9 /* XLLogCell.xib in Sources */,
+				420F8A627D29A39F737CE8F37EB6F65C /* XLNSLog-dummy.m in Sources */,
+				6C286D3C6FAF7FBF28B03AA54B1D7BEB /* XLNSLogFilter.m in Sources */,
+				8A1831EE8240A4F813902B5ACC7E8017 /* XLNSLogUtil.m in Sources */,
+				B7B01D6FC43B4DDF2EB954055166BE53 /* XLScreenMessageView.m in Sources */,
+				F068C92A0BDE27D72309DC0304EC5D15 /* XLScreenShowManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F6FCBE6B10B63F10443430ED5108FE3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XLNSLog;
-			target = 9C62FD165B7CBC6EB69F099D68A54B81 /* XLNSLog */;
-			targetProxy = 69BBE3F1DCFDE8811131A3C75D4A8F1D /* PBXContainerItemProxy */;
-		};
-		F53F56E0B805474B998DE272023D9AE1 /* PBXTargetDependency */ = {
+		6AAED4772D99679D97287C58525D1BDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XLNSLog_Example";
 			target = B52CD84C7918F2F52FB38F95AE369758 /* Pods-XLNSLog_Example */;
-			targetProxy = 9B895975085C96D71E1700EA2FAE16F2 /* PBXContainerItemProxy */;
+			targetProxy = A4E08226E9F60716B43801130A66DBD3 /* PBXContainerItemProxy */;
+		};
+		B7D0AED4404C8975044750682DA44B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLNSLog;
+			target = 9C62FD165B7CBC6EB69F099D68A54B81 /* XLNSLog */;
+			targetProxy = FEBF2014F6039E5045C5D4B12F5870AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -490,6 +481,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		0859AB666AC609CB00F3BA58A58AF33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF8D785D4BC5131DA2AC860BA4B3EAF /* XLNSLog.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLNSLog/XLNSLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLNSLog/XLNSLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLNSLog/XLNSLog.modulemap";
+				PRODUCT_MODULE_NAME = XLNSLog;
+				PRODUCT_NAME = XLNSLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -622,9 +644,9 @@
 			};
 			name = Release;
 		};
-		8EC271CE3D62E5BA7B486D0FD416AA92 /* Debug */ = {
+		794AE336B1836C4CAB66749F96C568C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC04065CE6AB8C3E227B3D9F992C32A3 /* XLNSLog.debug.xcconfig */;
+			baseConfigurationReference = A23AEB51509FFA1D210982E7CFF7729F /* XLNSLog.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -651,37 +673,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B055FD6C25C56DF53D90BA85673C38BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5A14E4D145BD08850D9B2338FC620B5 /* XLNSLog.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XLNSLog/XLNSLog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XLNSLog/XLNSLog-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XLNSLog/XLNSLog.modulemap";
-				PRODUCT_MODULE_NAME = XLNSLog;
-				PRODUCT_NAME = XLNSLog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B393899797735ABD5D87B028905356FF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -771,7 +762,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -798,20 +790,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5A20C33893B3C4BE5078D79D8C838899 /* Build configuration list for PBXNativeTarget "XLNSLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794AE336B1836C4CAB66749F96C568C0 /* Debug */,
+				0859AB666AC609CB00F3BA58A58AF33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7BA38E0C7A392F67B24F46819F92D522 /* Build configuration list for PBXNativeTarget "Pods-XLNSLog_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03E0F59092BB3DA8672F5361B262CAB0 /* Debug */,
 				51FD8421488402381BFFACE08EDBE9A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B1CBF2E0DFD63E178078FF44E4D91DC4 /* Build configuration list for PBXNativeTarget "XLNSLog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EC271CE3D62E5BA7B486D0FD416AA92 /* Debug */,
-				B055FD6C25C56DF53D90BA85673C38BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
