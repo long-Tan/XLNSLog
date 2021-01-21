@@ -16,10 +16,14 @@
 #define KXL_MAX_LOG_NUMBER 1000
 
 #ifdef DEBUG
-#ifdef KXLNSLOG_OPEN
 
+#ifdef KXLNSLOG_OPEN
 #define NSLog(...)
 #define XLOG(...) XLLogMessageF(__VA_ARGS__)
-
 #endif
+
+#else
+#define NSLog(...)
+#define XLOG(...) {}
+
 #endif
